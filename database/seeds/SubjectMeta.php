@@ -11,7 +11,7 @@ class SubjectMeta extends Seeder
      */
     public function run()
     {
-        factory(App\SubjectMeta::class,8)->create();
+        factory(App\SubjectMeta::class,5)->create();
     
     }
 }

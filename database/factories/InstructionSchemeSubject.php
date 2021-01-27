@@ -7,7 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(InstructionSchemeSubject::class, function (Faker $faker) {
     return [
-        'instruction_scheme_id'=>$faker->numberBetween($min = 1, $max = 8),
-        'subject_id'=>$faker->numberBetween($min = 1, $max = 8)
+        'instruction_scheme_id'=>$faker->numberBetween($min = 1, $max = 5),
+        'subject_id'=>$faker->numberBetween($min = 1, $max = 5)
     ];
 });

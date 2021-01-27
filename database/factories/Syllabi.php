@@ -13,6 +13,6 @@ $factory->define(Syllabi::class, function (Faker $faker) {
         'syllabus'=>$faker->sentence(),
         'textbooks'=>$faker->sentence(),
         'reference_books'=>$faker->sentence(),
-        'subject_id'=>$faker->numberBetween($min=1,$max=8),
+        'subject_id'=>$faker->numberBetween($min=1,$max=5),
     ];
 });

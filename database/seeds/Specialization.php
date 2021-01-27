@@ -11,7 +11,7 @@ class Specialization extends Seeder
      */
     public function run()
     {
-        factory(App\Specialization::class,8)->create();
+        factory(App\Specialization::class,5)->create();
     
     }
 }

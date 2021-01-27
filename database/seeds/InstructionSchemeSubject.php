@@ -11,7 +11,7 @@ class InstructionSchemeSubject extends Seeder
      */
     public function run()
     {
-        factory(App\InstructionSchemeSubject::class,8)->create();
+        factory(App\InstructionSchemeSubject::class,5)->create();
     
     }
 }

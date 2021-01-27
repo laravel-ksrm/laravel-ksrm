@@ -11,7 +11,7 @@ class Subject extends Seeder
      */
     public function run()
     {
-        factory(App\Subject::class,8)->create();
+        factory(App\Subject::class,5)->create();
     
     }
 }

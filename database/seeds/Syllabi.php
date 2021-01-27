@@ -11,7 +11,7 @@ class Syllabi extends Seeder
      */
     public function run()
     {
-        factory(App\Syllabi::class,8)->create();
+        factory(App\Syllabi::class,5)->create();
     
     }
 }
