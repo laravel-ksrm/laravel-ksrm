@@ -45,3 +45,4 @@ class InstructionSchemeSubject extends Migration
         Schema::dropIfExists('instruction_scheme_subject');
     }
 }
+

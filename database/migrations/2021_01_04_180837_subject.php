@@ -15,10 +15,12 @@ class Subject extends Migration
     {
         Schema::create('subjects', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('code', Constants::TITLE_SHORT_LENGTH);
+            $table->unsignedBigInteger('code')->nullable()->index();
             $table->string('short_name', Constants::TITLE_SHORT_LENGTH)->unique();
             $table->string('name', Constants::TITLE_LENGTH);
             $table->unsignedBigInteger('department_id');
+            $table->string('regulation');
+            $table->string('semester');
             $table->boolean('is_theory')->default(true);
             $table->boolean('is_lab')->default(false);
             $table->boolean('is_project')->default(false);
@@ -27,6 +29,16 @@ class Subject extends Migration
                 ->references('id')
                 ->on('departments')
                 ->onDelete('cascade');
+            $table->foreign('semester', 'f_subjects_semester')
+                ->references('short_name')
+                ->on('semesters')
+                ->onDelete('cascade');
+            $table->foreign('regulation', 'f_subjects_regulation')
+                ->references('short_name')
+                ->on('regulations')
+                ->onDelete('cascade');
+            
+            
         });
 
     }

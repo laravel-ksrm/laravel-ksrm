@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(SubjectOfferingType::class, function (Faker $faker) {
     return [
         //'id'=>$faker->numberBetween($min=1,$max=8),
-        'description'=>$faker->word()
+        //'description'=>$faker->word()
         
     ];
 });

@@ -16,7 +16,7 @@ class Regulation extends Migration
         Schema::create('regulations', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('program_id')->index();
-            $table->string('short_name', Constants::TITLE_SHORT_LENGTH)->unique();
+            $table->string('short_name', Constants::TITLE_SHORT_LENGTH)->unique()->index();
             $table->string('name', Constants::TITLE_LENGTH);
             $table->year('start_year');
             $table->year('end_year')->nullable();

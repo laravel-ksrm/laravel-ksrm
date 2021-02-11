@@ -18,14 +18,15 @@ class DatabaseSeeder extends Seeder
         // $this->call(Regulation::class);
         // $this->call(Semester::class);
         // $this->call(SubjectOfferingType::class);
-        $this->call(Subject::class);
-        //$this->call(Syllabi::class);
-        //$this->call(SubjectMeta::class);
-        //$this->call(Specialization::class);
-        //$this->call(SubjectCategory::class);
-        //$this->call(InstructionScheme::class);
+        // $this->call(Subject::class);
+        // $this->call(Syllabi::class);
+        // $this->call(SubjectMeta::class);
+        // $this->call(Specialization::class);
+        // $this->call(SubjectCategory::class);
+        // $this->call(InstructionScheme::class);
         //$this->call(InstructionSchemeSubject::class);
-        // $this->call(Preacher::class);
+        //$this->call(Preacher::class);
+        // $this->call(ExternalMark::class);
     
 }
 }

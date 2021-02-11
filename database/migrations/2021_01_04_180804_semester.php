@@ -16,7 +16,7 @@ class Semester extends Migration
         Schema::create('semesters', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('regulation_id')->index();
-            $table->string('short_name', Constants::TITLE_SHORT_LENGTH);
+            $table->string('short_name', Constants::TITLE_SHORT_LENGTH)->index();
             $table->string('name', Constants::TITLE_LENGTH);
             $table->unsignedBigInteger('semester_number');
             $table->boolean('in_force')->default(false);

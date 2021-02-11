@@ -11,7 +11,47 @@ class SubjectCategory extends Seeder
      */
     public function run()
     {
-        factory(App\SubjectCategory::class,8)->create();
+        DB::table('subject_categories')->delete();
+    $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
+    DB::unprepared($statement);
+
+    $csv = dirname(__FILE__) . '/data/' . 'sub_category.csv';
+    $file_handle = fopen($csv, "r");
+
+    echo PHP_EOL;
+    echo '------------------------------------------ open file ------------------------------------------';
+    echo PHP_EOL;
+
+    while (!feof($file_handle)) {
+
+        $line = fgetcsv($file_handle);
+        if (empty($line)) {
+            continue; // skip blank lines
+        }
+
+    //    
     
+            
+            
+            $insert = array();
+            
+            $insert['short_name'] = $line[0];
+            $insert['name'] = $line[1];
+            
+            DB::table('subject_categories')->insert($insert);
+
+            echo 'insert: ' . $line[0] ;
+            echo PHP_EOL;
+
+        }
+
+    
+
+    fclose($file_handle);
+
+    echo PHP_EOL;
+    echo '------------------------------------------ close file ------------------------------------------';
+    echo PHP_EOL;
+
     }
 }

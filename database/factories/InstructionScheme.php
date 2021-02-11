@@ -10,7 +10,7 @@ $factory->define(InstructionScheme::class, function (Faker $faker) {
         'specialization_id' => $faker->numberBetween($min = 1, $max = 8),
         'semester_id' => $faker->numberBetween($min = 1, $max = 8),
         'subject_category_id' => $faker->numberBetween($min = 1, $max = 8),
-        'subject_offering_type_id' =>$faker->numberBetween($min = 1, $max = 8),
+        'subject_offering_type_id' =>$faker->numberBetween($min = 1, $max = 6),
         'scheme' => $faker->sentence(),
         'sequence_number' =>$faker->numberBetween($min = 1, $max = 8)
     ];
