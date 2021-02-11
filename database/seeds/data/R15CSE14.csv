@@ -1,0 +1,71 @@
+1521101,BS,M1,Mathematics-1,6,R-15,I sem,1,0,3,1,0,30,70,3
+1521102,BS,M2,Mathematics-2,6,R-15,I sem,1,0,3,1,0,30,70,3
+1503103,ED,EG,Engineering Graphics,3,R-15,I sem,1,0,1,0,3,30,70,3
+1524104,HS,ENG1,English-1,6,R-15,I sem,1,0,4,0,0,30,70,3
+1502105,ED,C,Programming in C,5,R-15,I sem,1,0,3,1,0,30,70,3
+1501106,HS,ES,Environimenta Studies,6,R-15,I sem,1,0,4,0,0,30,70,3
+1505107,ED,C Lab,Programming in C Lab,5,R-15,I sem,0,1,0,0,3,50,50,2
+1599108,ED,EW,Engineering Workshop,3,R-15,I sem,0,1,0,0,3,50,50,2
+1522102,BS,EP,Engineering Physics,6,R-15,II sem,1,0,3,1,0,30,70,3
+1521202,BS,M3,Mathematics-3,6,R-15,II sem,1,0,3,1,0,30,70,3
+1523103,ED,EC,Engineering Chemistry,6,R-15,II sem,1,0,3,1,0,30,70,3
+1524204,HS,ENG2,English-2,6,R-15,II sem,1,0,4,0,0,30,70,3
+1505205,PJ,IDS,Introduction to Data Structures,5,R-15,II sem,1,0,3,1,3,30,70,3
+1525106,HS,HVPE,Human Values and Professional Ethics,6,R-15,II sem,1,0,4,0,0,30,70,3
+1599107,BS,PC LAB,Physics and Chemistry Lab,6,R-15,II sem,0,1,0,0,3,50,50,2
+1524108,HS,ELCS LAB,English Language and Communication Skills Lab,6,R-15,II sem,0,1,0,0,3,50,50,2
+1599301,PN,EEE,Electrical & Electronics Engineering ,3,R-15,III sem,1,0,3,1,0,30,70,3
+1505302,PJ,ADS,Advanced Data Structures,5,R-15,III sem,1,0,3,1,0,30,70,3
+1505303,PJ,DLD,Digital Logic Design,5,R-15,III sem,1,0,3,1,0,30,70,3
+1505304,PJ,DM,Discrete Mathematics,5,R-15,III sem,1,0,4,0,0,30,70,3
+1525305,PN,MEFA,Managerial Economics & Financial Analysis,6,R-15,III sem,1,0,3,1,0,30,70,3
+1505306,PJ,OOPS(or)C++,Object Oriented Programming through C++,5,R-15,III sem,1,0,3,1,0,30,70,3
+1505307,PJ,OOPS&DS LAB,Object Oriented Programming & Data Structures Lab,5,R-15,III sem,0,1,0,0,3,50,50,2
+1599308,PN,EEE LAB,Electrical & Electronics Engineering Lab,3,R-15,III sem,0,1,0,0,3,50,50,2
+1521401,HS,P&S,Probability & Statistics,6,R-15,IV sem,1,0,3,1,0,30,70,3
+1505402,HS,OS,Operating Systems,5,R-15,IV sem,1,0,4,0,0,30,70,3
+1505403,PJ,DBMS,Database Management Systems,5,R-15,IV sem,1,0,3,1,0,30,70,3
+1505404,PJ,FLAT,Formal Languages & Automata Theory,5,R-15,IV sem,1,0,3,1,0,30,70,3
+1505405,PJ,JAVA,Java Programming,5,R-15,IV sem,1,0,3,1,0,30,70,3
+1505406,PJ,CO,Computer Organization,5,R-15,IV sem,1,0,4,0,0,30,70,3
+1525407,PJ,DBMS LAB,Database Management Systems Lab,5,R-15,IV sem,0,1,0,0,3,50,50,2
+1505408,PJ,JAVA LAB,Java Programming Lab,5,R-15,IV sem,0,1,0,0,3,50,50,2
+1505501,PJ,WT,Web Technologies,5,R-15,V sem,1,0,3,1,0,30,70,3
+1505502,PJ,CN,Computer Networks,5,R-15,V sem,1,0,3,1,0,30,70,3
+1505503,PJ,SE,Software Engineering,5,R-15,V sem,1,0,4,0,0,30,70,3
+1505504,PJ,CD,Compiler Design,5,R-15,V sem,1,0,3,1,0,30,70,3
+1505505,PJ,ACA,Advanced Computer Architecture,5,R-15,V sem,1,0,3,1,0,30,70,3
+1505506,PJ,MS,Multimedia Systems,5,R-15,V sem,1,0,3,1,0,30,70,3
+1505507,PJ,PPL,Principles of Programming Languages,5,R-15,V sem,1,0,3,1,0,30,70,3
+1504508,PN,MP,Micro Processors,4,R-15,V sem,1,0,4,0,0,30,70,3
+1505509,PN,WT LAB,Web Technologies Lab,5,R-15,V sem,0,1,0,0,3,50,50,2
+1524510,PN,AECS LAB,Advanced English and Communication Skills Lab,6,R-15,V sem,0,1,0,0,3,50,50,2
+1505601,PJ,OOAD,Object Oriented Analysis & Design,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505602,PJ,DAA,Design & Analysis of Algorithms,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505603,PJ,C&NS,Cryptography & Network Security,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505604,PJ,DM,Data Mining,5,R-15,VI sem,1,0,3,1,0,30,70,3
+1505605,PJ,MAD,Mobile Application Development,5,R-15,VI sem,1,0,3,1,0,30,70,3
+1505606,PJ,ML,Machine Learning,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505607,PJ,DS,Distributed Systems,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505608,PJ,U&SP,Unix and Shell Programming,5,R-15,VI sem,1,0,4,0,0,30,70,3
+1505609,PN,UML & DM Lab,UML & Data Mining Lab,5,R-15,VI sem,0,1,0,0,3,50,50,2
+1505610,PN,MAD Lab,Mobile Application Development Lab,5,R-15,VI sem,0,1,0,0,3,50,50,2
+1505701,PJ,BDT,Big Data Technologies,5,R-15,VII sem,1,0,3,1,0,30,70,3
+1505703,PJ,AI,Artificial Intelligence,5,R-15,VII sem,1,0,4,0,0,30,70,3
+1505702,PJ,CC,Cloud Computing,2,R-15,VII sem,1,0,4,0,0,30,70,3
+1505704,PJ,ST,Software Testing,2,R-15,VII sem,1,0,4,0,0,30,70,3
+1505705,PJ,CG,Computer Graphics,5,R-15,VII sem,1,0,3,1,0,30,70,3
+1505706,PJ,MC,Mobile Computing,5,R-15,VII sem,1,0,3,1,0,30,70,3
+1505707,PJ,NLP,Natural Language Processing,5,R-15,VII sem,1,0,3,1,0,30,70,3
+1505708,PJ,IOT,Internet Of Things,5,R-15,VII sem,1,0,4,0,0,30,70,3
+1505709,PJ,ST LAB,Software Testing Lab,5,R-15,VII sem,0,0,0,0,3,50,50,2
+1505710,PJ,IOT LAB,Internet Of Things Lab,5,R-15,VII sem,0,1,0,0,3,50,50,2
+1525801,PJ,SPM,Software Project Management,5,R-15,VIII sem,1,0,4,0,0,30,70,3
+1505802,PJ,EH,Ethical Hacking,5,R-15,VIII sem,1,0,4,0,0,30,70,3
+1505803,PN,MS,Management Science,5,R-15,VIII sem,1,0,3,1,0,30,70,3
+1505804,PJ,DIP,Digital Image Processing,5,R-15,VIII sem,1,0,4,0,0,30,70,3
+1505805,PJ,SNMA,"Social Network Mining and
+Analysis",5,R-15,VIII sem,1,0,4,0,0,30,70,3
+1505806,PJ,SC,Soft Computing,5,R-15,VIII sem,1,0,4,0,0,30,70,3
+1505807,PJ,SC,Seminar & Comprehensive Viva Voce,5,R-15,VIII sem,0,1,0,0,0,100,0,4
+1505808,PJ,PW,Project Work,5,R-15,VIII sem,0,1,4,0,0,50,50,10

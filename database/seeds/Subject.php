@@ -15,7 +15,7 @@ class Subject extends Seeder
     $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
-    $csv = dirname(__FILE__) . '/data/' . 'ssub.csv';
+    $csv = dirname(__FILE__) . '/data/' . 'R15CSE14.csv';
     $file_handle = fopen($csv, "r");
 
     echo PHP_EOL;
@@ -35,9 +35,20 @@ class Subject extends Seeder
             
             $insert = array();
             $insert['code'] = $line[0];
-            $insert['short_name'] = $line[1];
-            $insert['name'] = $line[2];
-            $insert['department_id'] = $line[3];
+            $insert['sub_category'] = $line[1];
+            $insert['short_name'] = $line[2];
+            $insert['name'] = $line[3];
+            $insert['department_id'] = $line[4];
+            $insert['regulation'] = $line[5];
+            $insert['semester'] = $line[6];
+            $insert['is_theory'] = $line[7];
+            $insert['is_practical'] = $line[8];
+            $insert['lecture_hours'] = $line[9];
+            $insert['tutorial_hours'] = $line[10];
+            $insert['practical_hours'] = $line[11];
+            $insert['internal_marks'] = $line[12];
+            $insert['external_marks'] = $line[13];
+            $insert['credits'] = $line[14];
             
 // insert
             DB::table('subjects')->insert($insert);
