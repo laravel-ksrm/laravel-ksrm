@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '6756eb0a76484aae425c07b0ec3158f242bfe1c1',
+    'reference' => '41eb66478884dc0c44212e7109450de1ac173129',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -548,7 +548,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '6756eb0a76484aae425c07b0ec3158f242bfe1c1',
+      'reference' => '41eb66478884dc0c44212e7109450de1ac173129',
     ),
     'laravel/socialite' => 
     array (
@@ -661,15 +661,6 @@
       array (
       ),
       'reference' => 'c6d052fc58cb876152f89f532b95a8d7907e7f0e',
-    ),
-    'nunomaduro/collision' => 
-    array (
-      'pretty_version' => 'v4.3.0',
-      'version' => '4.3.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '7c125dc2463f3e144ddc7e05e63077109508c94e',
     ),
     'ocramius/package-versions' => 
     array (

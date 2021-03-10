@@ -124,7 +124,6 @@ final class Versions
   'hamcrest/hamcrest-php' => 'v2.0.1@8c3d0a3f6af734494ad8f6fbbee0ba92422859f3',
   'mockery/mockery' => '1.4.2@20cab678faed06fac225193be281ea0fddb43b93',
   'myclabs/deep-copy' => '1.10.2@776f831124e9c62e1a2c601ecc52e776d8bb7220',
-  'nunomaduro/collision' => 'v4.3.0@7c125dc2463f3e144ddc7e05e63077109508c94e',
   'phar-io/manifest' => '2.0.1@85265efd3af7ba3ca4b2a2c34dbfc5788dd29133',
   'phar-io/version' => '3.0.4@e4782611070e50613683d2b9a57730e9a3ba5451',
   'phpdocumentor/reflection-common' => '2.2.0@1d01c49d4ed62f25aa84a747ad35d5a16924662b',
@@ -155,7 +154,7 @@ final class Versions
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'theseer/tokenizer' => '1.2.0@75a63c33a8577608444246075ea0af0d052e452a',
   'webmozart/assert' => '1.9.1@bafc69caeb4d49c39fd0779086c03a3738cbb389',
-  'laravel/laravel' => 'dev-master@6756eb0a76484aae425c07b0ec3158f242bfe1c1',
+  'laravel/laravel' => 'dev-master@41eb66478884dc0c44212e7109450de1ac173129',
 );
 
     private function __construct()
