@@ -30,6 +30,7 @@ return array(
     'App\\Http\\Middleware\\TrustHosts' => $baseDir . '/app/Http/Middleware/TrustHosts.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\Logging\\CreateStackdriverLogger' => $baseDir . '/app/Logging/CreateStackdriverLogger.php',
     'App\\Preacher' => $baseDir . '/app/Preacher.php',
     'App\\Program' => $baseDir . '/app/Program.php',
     'App\\ProgramLevel' => $baseDir . '/app/ProgramLevel.php',
