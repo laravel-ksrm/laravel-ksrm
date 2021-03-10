@@ -131,10 +131,6 @@ class ComposerStaticInit075f453230dd94ce80873bb3c29d9d17
             'Laravel\\Tinker\\' => 15,
             'Laravel\\Socialite\\' => 18,
         ),
-        'J' => 
-        array (
-            'JeroenZwart\\CsvSeeder\\' => 22,
-        ),
         'I' => 
         array (
             'Illuminate\\Foundation\\Auth\\' => 27,
@@ -435,10 +431,6 @@ class ComposerStaticInit075f453230dd94ce80873bb3c29d9d17
         'Laravel\\Socialite\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/socialite/src',
-        ),
-        'JeroenZwart\\CsvSeeder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jeroenzwart/laravel-csv-seeder/src',
         ),
         'Illuminate\\Foundation\\Auth\\' => 
         array (
@@ -3773,10 +3765,6 @@ class ComposerStaticInit075f453230dd94ce80873bb3c29d9d17
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
-        'JeroenZwart\\CsvSeeder\\CsvHeaderParser' => __DIR__ . '/..' . '/jeroenzwart/laravel-csv-seeder/src/CsvHeaderParser.php',
-        'JeroenZwart\\CsvSeeder\\CsvRowParser' => __DIR__ . '/..' . '/jeroenzwart/laravel-csv-seeder/src/CsvRowParser.php',
-        'JeroenZwart\\CsvSeeder\\CsvSeeder' => __DIR__ . '/..' . '/jeroenzwart/laravel-csv-seeder/src/CsvSeeder.php',
-        'JeroenZwart\\CsvSeeder\\CsvSeederServiceProvider' => __DIR__ . '/..' . '/jeroenzwart/laravel-csv-seeder/src/CsvSeederServiceProvider.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Laravel\\Socialite\\AbstractUser' => __DIR__ . '/..' . '/laravel/socialite/src/AbstractUser.php',
         'Laravel\\Socialite\\Contracts\\Factory' => __DIR__ . '/..' . '/laravel/socialite/src/Contracts/Factory.php',

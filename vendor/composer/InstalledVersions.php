@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0a0aa638cb0cb8cca577f1d528df1a8445c69cf0',
+    'reference' => '6756eb0a76484aae425c07b0ec3158f242bfe1c1',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -548,15 +548,6 @@ private static $installed = array (
         0 => 'v7.30.1',
       ),
     ),
-    'jeroenzwart/laravel-csv-seeder' => 
-    array (
-      'pretty_version' => 'v1.5',
-      'version' => '1.5.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '51bcd3b4d518321aff2837090b21e766abf3de07',
-    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -580,7 +571,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0a0aa638cb0cb8cca577f1d528df1a8445c69cf0',
+      'reference' => '6756eb0a76484aae425c07b0ec3158f242bfe1c1',
     ),
     'laravel/socialite' => 
     array (
