@@ -10,7 +10,7 @@ $factory->define(Syllabi::class, function (Faker $faker) {
         'excerpt'=>$faker->sentence(),
         'objectives'=>$faker->sentence(),
         'cos'=>$faker->sentence(),
-        'syllabus'=>$faker->sentence(),
+        'file_path'=>$faker->url(),
         'textbooks'=>$faker->sentence(),
         'reference_books'=>$faker->sentence(),
         'subject_id'=>$faker->numberBetween($min=1,$max=5),

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Facades\Hash;
 class User extends Seeder
 {
     /**
@@ -61,7 +61,7 @@ CSV column names
             $insert['gender'] = $line[10];
             $insert['specialization_id'] = $line[11];
             $insert['regulation_id'] = $line[12];
-            $insert['password'] = $line[13];
+            $insert['password'] = Hash::make($line[13]);
 
         if (empty($line[5])) {
         

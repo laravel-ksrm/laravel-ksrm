@@ -1,6 +1,9 @@
-CE,Civil Engineering,hodce@ksrmce.ac.in,hodce@ksrmce.ac.in
-EEE,ELECTRICAL AND ELECTRONICS  ENGINEERING,hodeee@ksrmce.ac.in,hodeee@ksrmce.ac.in
-MECH,MECHANICAL ENGINEERING,hodme@ksrmce.ac.in,hodme@ksrmce.ac.in
-ECE,ELECTRICAL AND COMMUNICATION  ENGINEERING,hodece@ksrmce.ac.in,hodece@ksrmce.ac.in
-CSE,COMPUTER SCIENCE AND ENGINEERING,hodcse@ksrmce.ac.in,hodcse@ksrmce.ac.in
-HS,HUMANTIES AND SCIENCES,hodhs@ksrmce.ac.in,hodhs@ksrmce.ac.in
+sn,name,off,hod
+CE,Civil Engineering,office.ce@ksrmce.ac.in,hod.ce@ksrmce.ac.in
+EEE,Electronics & Electrical Engineering,office.eee@ksrmce.ac.in,hod.eee@ksrmce.ac.in
+ME,Mechanical Engineering,office.me@ksrmce.ac.in,hod.me@ksrmce.ac.in
+ECE,Electronics & Communication Engineering,office.ece@ksrmce.ac.in,hod.ece@ksrmce.ac.in
+CSE,Computer Science Engineering,office.cse@ksrmce.ac.in,hod.cse@ksrmce.ac.in
+HS,Humanities and Sciences,office.hs@ksrmce.ac.in,hod.hs@ksrmce.ac.in
+AME,Automobile Engineering,office.ame@ksrmce.ac.in,hod.ame@ksrmce.ac.in
+CHE,Chemical Engineering,office.che@ksrmce.ac.in,hod.che@ksrmce.ac.in

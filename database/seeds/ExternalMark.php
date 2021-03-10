@@ -45,27 +45,36 @@ CSV column names
 // Function to check string starting 
 // with given substring 
 
-
+$year = 2018;
 
             $insert = array();
-            $insert['im_ht_no'] = $line[0];
-            $insert['im_semester'] = 'I sem';
-            $insert['im_reg_code'] = 'R-15';
-            $insert['im_sub_code'] = $line[1];
-            if($line[2]<0){
-                $insert['external_marks'] = 1;
+            if(str_starts_with($year,2,4)){
+                $insert['em_ht_no'] = $line[0];
+            }
+            else{
+                break;
+            }
+            $insert['em_semester'] = 'I sem';
+            $insert['em_reg_code'] = 'R-15';
+            $insert['em_sub_code'] = $line[1];
+            if($line[2] == -1){
+                $insert['external_marks'] = 'Abs';
+            }
+            elseif($line[2] == -2){
+                $insert['external_marks'] = 'Mal Practice';
+            }
+            elseif($line[2] == -5){
+                $insert['external_marks'] = 'No End Exam';
             }
             else{
                 $insert['external_marks'] = $line[2];
             }
-            $insert['month_year'] = 2017;
-            if(str_starts_with($line[0],17)){
-                $insert['is_regular'] = 1;
-                $insert['is_supply'] = 0;
+            $insert['month_year'] = $year;
+            if(str_starts_with($line[0],substr($year,2,4))){
+                $insert['exam_type'] = 'regular';
             }
             else{
-                $insert['is_supply'] = 1;
-                $insert['is_regular'] = 0;
+                $insert['exam_type'] = 'supply';
             }
                         
             // insert

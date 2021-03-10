@@ -18,7 +18,7 @@ class Syllabi extends Migration
             $table->longText('excerpt');
             $table->longText('objectives');
             $table->longText('cos');
-            $table->longText('syllabus');
+            $table->string('file_path');
             $table->longText('textbooks');
             $table->longText('reference_books');
             $table->unsignedBigInteger('subject_id');

@@ -1,8 +1,9 @@
-1521101,BS,M1,Mathematics-1,6
-1522102,BS,EP,Engineering Physics,6
-1523103,ED,EC,Engineering Chemistry,6
-1524104,HS,ENG1,English-1,6
-1503105,ED,ED1,Engineering Drawing-1,3
-1525106,HS,HVPE,Human Values and Professional Ethics,6
-1599107,ED,PC LAB,Physics and Chemistry Lab,6
-1524108,ED,ELCS LAB,English Language and Communication Skills Lab,6
+sc,s_cate,sn,name,dep,reg,sem,istheoru,isprac,l,t,p,im,ex,cr
+1521101,BS,M1,Mathematics-1,6,R-15,I sem,1,0,3,1,0,,,
+1522102,BS,EP,Engineering Physics,6,R-15,I sem,1,0,4,0,0,,,
+1523103,ED,EC,Engineering Chemistry,6,R-15,I sem,1,0,4,0,0,,,
+1524104,HS,ENG1,English-1,6,R-15,I sem,1,0,4,0,0,,,
+1503105,ED,ED1,Engineering Drawing-1,3,R-15,I sem,1,0,3,1,0,,,
+1525106,HS,HVPE,Human Values and Professional Ethics,6,R-15,I sem,1,0,4,0,0,,,
+1599107,ED,PC LAB,Physics and Chemistry Lab,6,R-15,I sem,0,1,0,0,3,,,
+1524108,ED,ELCS LAB,English Language and Communication Skills Lab,6,R-15,I sem,0,1,0,0,3,,,

@@ -23,10 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call(Subject::class);
         $this->call(Syllabi::class);
         $this->call(SubjectMeta::class);
-        $this->call(InstructionScheme::class);
-        $this->call(InstructionSchemeSubject::class);
         $this->call(Preacher::class);
-        $this->call(ExternalMark::class);
-    
+        //$this->call(ExternalMark::class);
 }
 }
