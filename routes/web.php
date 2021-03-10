@@ -25,3 +25,8 @@ Route::get('auth/google', 'Auth\GoogleController@redirectToGoogle');
 Route::get('auth/google/callback', 'Auth\GoogleController@handleGoogleCallback');
 
 Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
+
+Route::get('/log/{message}', function ($message) {
+    Log::info("Hello my log, message: $message");
+    return view('welcome');
+});

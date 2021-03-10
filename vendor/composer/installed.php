@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b561d9798e759358beea420f72582cc0df01fec7',
+    'reference' => '7f1dda996d95d51110a1da0372cfa28eac4acf39',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -187,6 +187,15 @@
       ),
       'reference' => '307fb34a5ab697461ec4c9db865b20ff2fd40771',
     ),
+    'firebase/php-jwt' => 
+    array (
+      'pretty_version' => 'v5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f42c9110abe98dd6cfe9053c49bc86acc70b2d23',
+    ),
     'fruitcake/laravel-cors' => 
     array (
       'pretty_version' => 'v2.0.3',
@@ -195,6 +204,87 @@
       array (
       ),
       'reference' => '01de0fe5f71c70d1930ee9a80385f9cc28e0f63a',
+    ),
+    'google/auth' => 
+    array (
+      'pretty_version' => 'v1.15.0',
+      'version' => '1.15.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b346c07de6613e26443d7b4830e5e1933b830dc4',
+    ),
+    'google/cloud-core' => 
+    array (
+      'pretty_version' => 'v1.41.0',
+      'version' => '1.41.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2e58627e1c4f1417631ba4b0a1098b66ac98665c',
+    ),
+    'google/cloud-error-reporting' => 
+    array (
+      'pretty_version' => 'v0.18.3',
+      'version' => '0.18.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '54d4615fce1fde0f4b37ba81e174f6d7f6da3d10',
+    ),
+    'google/cloud-logging' => 
+    array (
+      'pretty_version' => 'v1.21.0',
+      'version' => '1.21.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bd00f181bb36fcf827e16eece967a76fbd29e00a',
+    ),
+    'google/common-protos' => 
+    array (
+      'pretty_version' => '1.3',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '535f489ff1c3433c0ea64cd5aa0560f926949ac5',
+    ),
+    'google/gax' => 
+    array (
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a2d48062b0ac0433da463a1f7c77ab672bbbfa08',
+    ),
+    'google/grpc-gcp' => 
+    array (
+      'pretty_version' => '0.1.5',
+      'version' => '0.1.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bb9bdbf62f6ae4e73d5209d85b1d0a0b9855ff36',
+    ),
+    'google/protobuf' => 
+    array (
+      'pretty_version' => 'v3.15.5',
+      'version' => '3.15.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c4a8128a7df155fce4faba3087b27dcdfe3ece2e',
+    ),
+    'grpc/grpc' => 
+    array (
+      'pretty_version' => '1.36.0',
+      'version' => '1.36.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6145dd917d340b579f0b663940b17cc93172b79a',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -467,7 +557,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b561d9798e759358beea420f72582cc0df01fec7',
+      'reference' => '7f1dda996d95d51110a1da0372cfa28eac4acf39',
     ),
     'laravel/socialite' => 
     array (
@@ -723,6 +813,15 @@
       ),
       'reference' => '8e16c225d57c3d6808014df6b1dd7598d0a5bbbe',
     ),
+    'psr/cache' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd11b50ad223250cf17b86e38383413f5a6764bf8',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.0.0',
@@ -855,6 +954,15 @@
       array (
         0 => '4.1.1',
       ),
+    ),
+    'rize/uri-template' => 
+    array (
+      'pretty_version' => '0.3.3',
+      'version' => '0.3.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6e0b97e00e0f36c652dd3c37b194ef07de669b82',
     ),
     'sebastian/cli-parser' => 
     array (

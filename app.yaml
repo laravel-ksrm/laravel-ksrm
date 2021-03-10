@@ -1,4 +1,4 @@
-runtime: php72
+runtime: php74
 
 env_variables:
   ## Put production environment variables here.
@@ -6,3 +6,13 @@ env_variables:
   APP_STORAGE: /tmp
   VIEW_COMPILED_PATH: /tmp
   SESSION_DRIVER: cookie
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: laravel-ksrm
+  ## for MYSQL, use DB_SOCKET:
+  DB_SOCKET: "/cloudsql/laravel-ksrm"
+  ## for PostgreSQL, use DB_HOST:
+  # DB_HOST: "/cloudsql/YOUR_CONNECTION_NAME"
+
+  env_variables:
+  LOG_CHANNEL: stackdriver
