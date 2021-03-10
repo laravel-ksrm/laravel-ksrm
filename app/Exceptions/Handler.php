@@ -35,15 +35,10 @@ class Handler extends ExceptionHandler
      *
      * @throws \Throwable
      */
-    public function report(Exception $exception)
-{
-    if (isset($_SERVER['GAE_SERVICE'])) {
-        Bootstrap::init();
-        Bootstrap::exceptionHandler($exception);
-    } else {
+    public function report(Throwable $exception)
+    {
         parent::report($exception);
     }
-}
 
     /**
      * Render an exception into an HTTP response.
