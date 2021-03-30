@@ -19,7 +19,7 @@ class Specialization extends Migration
             $table->string('name', Constants::TITLE_LENGTH);
             $table->unsignedBigInteger('department_id');
             $table->unsignedBigInteger('program_id');
-            $table->boolean('in_force')->default(false);
+            $table->boolean('in_force')->default(true);
             $table->timestamps();
             $table->foreign('department_id', 'f_specializations_department_id')
                 ->references('id')

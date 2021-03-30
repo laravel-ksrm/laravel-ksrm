@@ -30,9 +30,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '235350822627-3a9urulnfhcna98d6csin30e4pgq2pqm.apps.googleusercontent.com',
-        'client_secret' => '6udHcwx3h-LWsad5ixtL3gNg',
-        'redirect' => 'https://the-name-307218.df.r.appspot.com/auth/google/callback',
+        'client_id' => '738296486751-rnar42dlaedqobh1icjfnb62rd05e0l7.apps.googleusercontent.com',
+        'client_secret' => 'XE0KEY4ZB6gMRI6nnkSUbZAV',
+        'redirect' => 'http://hanumanth.tech/auth/google/callback',
+        #if it is running on localhost
+        'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
+        
     ],
 
 ];

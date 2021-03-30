@@ -15,7 +15,7 @@ class Syllabi extends Migration
     {
         Schema::create('syllabis', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->longText('excerpt');
+            $table->longText('excerpt')->nullable();
             $table->longText('objectives');
             $table->longText('cos');
             $table->string('file_path');

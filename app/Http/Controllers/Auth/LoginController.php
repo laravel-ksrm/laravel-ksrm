@@ -32,7 +32,6 @@ class LoginController extends Controller
         $input = $request->all();
   
         $this->validate($request, [
-            'regdno' => 'required',
             'password' => 'required',
         ]);
   

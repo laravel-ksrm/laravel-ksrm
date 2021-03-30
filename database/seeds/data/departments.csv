@@ -1,9 +1,8 @@
 sn,name,off,hod
-CE,Civil Engineering,office.ce@ksrmce.ac.in,hod.ce@ksrmce.ac.in
-EEE,Electronics & Electrical Engineering,office.eee@ksrmce.ac.in,hod.eee@ksrmce.ac.in
-ME,Mechanical Engineering,office.me@ksrmce.ac.in,hod.me@ksrmce.ac.in
-ECE,Electronics & Communication Engineering,office.ece@ksrmce.ac.in,hod.ece@ksrmce.ac.in
-CSE,Computer Science Engineering,office.cse@ksrmce.ac.in,hod.cse@ksrmce.ac.in
-HS,Humanities and Sciences,office.hs@ksrmce.ac.in,hod.hs@ksrmce.ac.in
-AME,Automobile Engineering,office.ame@ksrmce.ac.in,hod.ame@ksrmce.ac.in
-CHE,Chemical Engineering,office.che@ksrmce.ac.in,hod.che@ksrmce.ac.in
+CED,Civil Engineering,office.ce@ksrmce.ac.in,hod.ce@ksrmce.ac.in
+EEED,Electronics & Electrical Engineering,office.eee@ksrmce.ac.in,hod.eee@ksrmce.ac.in
+MED,Mechanical Engineering,office.me@ksrmce.ac.in,hod.me@ksrmce.ac.in
+ECED,Electronics & Communication Engineering,office.ece@ksrmce.ac.in,hod.ece@ksrmce.ac.in
+CSED,Computer Science Engineering,office.cse@ksrmce.ac.in,hod.cse@ksrmce.ac.in
+HSD,Humanities and Sciences,office.hs@ksrmce.ac.in,hod.hs@ksrmce.ac.in
+CRID,Center for Research and Innovation,cri@ksrmce.ac.in,cri@ksrmce.ac.in
