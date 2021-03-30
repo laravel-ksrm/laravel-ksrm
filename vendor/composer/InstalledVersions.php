@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '41eb66478884dc0c44212e7109450de1ac173129',
+    'reference' => '78986f1815246bfa9efd697c6063a9793f48c12c',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -156,33 +156,6 @@ private static $installed = array (
       ),
       'reference' => '0dbf5d78455d4d6a41d186da50adc1122ec066f4',
     ),
-    'facade/flare-client-php' => 
-    array (
-      'pretty_version' => '1.3.7',
-      'version' => '1.3.7.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'fd688d3c06658f2b3b5f7bb19f051ee4ddf02492',
-    ),
-    'facade/ignition' => 
-    array (
-      'pretty_version' => '2.5.8',
-      'version' => '2.5.8.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '8e907d81244649c5ea746e2ec30c32c5f59df472',
-    ),
-    'facade/ignition-contracts' => 
-    array (
-      'pretty_version' => '1.0.2',
-      'version' => '1.0.2.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '3c921a1cdba35b68a7f0ccffc6dffc1995b18267',
-    ),
     'fakerphp/faker' => 
     array (
       'pretty_version' => 'v1.13.0',
@@ -200,15 +173,6 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c073b2bd04d1c90e04dc1b787662b558dd65ade0',
-    ),
-    'filp/whoops' => 
-    array (
-      'pretty_version' => '2.9.1',
-      'version' => '2.9.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '307fb34a5ab697461ec4c9db865b20ff2fd40771',
     ),
     'firebase/php-jwt' => 
     array (
@@ -571,7 +535,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '41eb66478884dc0c44212e7109450de1ac173129',
+      'reference' => '78986f1815246bfa9efd697c6063a9793f48c12c',
     ),
     'laravel/socialite' => 
     array (
