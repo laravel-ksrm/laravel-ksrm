@@ -34,7 +34,7 @@ return [
         'client_secret' => 'XE0KEY4ZB6gMRI6nnkSUbZAV',
         'redirect' => 'http://hanumanth.tech/auth/google/callback',
         #if it is running on localhost
-        'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
+        // 'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
         
     ],
 
