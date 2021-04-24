@@ -11,8 +11,8 @@ class StudentDetails extends Seeder
      */
     public function run()
     {
-        DB::table('StudentDetailss')->delete();
-    $statement = "ALTER TABLE StudentDetailss AUTO_INCREMENT = 1;";
+        DB::table('student_datails')->delete();
+    $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
     $csv = dirname(__FILE__) . '/data/' . 'students.csv';
@@ -69,7 +69,7 @@ CSV column names
             // skip blank lines
         }
 // insert
-            DB::table('StudentDetailss')->insert($insert);
+            DB::table('student_datails')->insert($insert);
 
             echo 'insert: ' . $line[1] ;
             echo PHP_EOL;

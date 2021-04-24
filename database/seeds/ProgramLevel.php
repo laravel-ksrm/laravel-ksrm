@@ -12,10 +12,10 @@ class ProgramLevel extends Seeder
     public function run()
     {
         DB::table('program_levels')->delete();
-    $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
+    $statement = "ALTER TABLE program_levels AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
-    $csv = dirname(__FILE__) . '/data/' . 'programLevel.csv';
+    $csv = dirname(__FILE__) . '/data/' . 'program_levels.csv';
     $file_handle = fopen($csv, "r");
 
     echo PHP_EOL;

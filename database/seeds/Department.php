@@ -12,7 +12,7 @@ class Department extends Seeder
     public function run()
     {
         DB::table('departments')->delete();
-    $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
+    $statement = "ALTER TABLE departments AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
     $csv = dirname(__FILE__) . '/data/' . 'departments.csv';

@@ -15,7 +15,7 @@ class Program extends Seeder
     $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
-    $csv = dirname(__FILE__) . '/data/' . 'program.csv';
+    $csv = dirname(__FILE__) . '/data/' . 'programs.csv';
     $file_handle = fopen($csv, "r");
 
     echo PHP_EOL;

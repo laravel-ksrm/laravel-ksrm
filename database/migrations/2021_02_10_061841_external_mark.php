@@ -35,10 +35,10 @@ class ExternalMark extends Migration
             //     ->references('regdno')
             //     ->on('users')
             //     ->onDelete('cascade');
-            $table->foreign('em_sub_code','f_external_marks_em_sub_code')
-                ->references('code')
-                ->on('subjects')
-                ->onDelete('cascade');
+            // $table->foreign('em_sub_code','f_external_marks_em_sub_code')
+            //     ->references('code')
+            //     ->on('subjects')
+            //     ->onDelete('cascade');
             
         });
     }

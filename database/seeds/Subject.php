@@ -12,7 +12,7 @@ class Subject extends Seeder
     public function run()
     {
         DB::table('subjects')->delete();
-    $statement = "ALTER TABLE users AUTO_INCREMENT = 1;";
+    $statement = "ALTER TABLE subjects AUTO_INCREMENT = 1;";
     DB::unprepared($statement);
 
     $csv = dirname(__FILE__) . '/data/' . 'sub.csv';
