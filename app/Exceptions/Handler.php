@@ -4,7 +4,6 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
-use Google\Cloud\ErrorReporting\Bootstrap;
 
 class Handler extends ExceptionHandler
 {
@@ -33,7 +32,7 @@ class Handler extends ExceptionHandler
      * @param  \Throwable  $exception
      * @return void
      *
-     * @throws \Throwable
+     * @throws \Exception
      */
     public function report(Throwable $exception)
     {

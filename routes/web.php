@@ -13,18 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', 'SpaController@index')->where('any', '.*');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('auth/google', 'Auth\GoogleController@redirectToGoogle');
-Route::get('auth/google/callback', 'Auth\GoogleController@handleGoogleCallback');
-
-Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
-
-Route::get('/log/{message}', function ($message) {
-    Log::info("Hello my log, message: $message");
+Route::get('/', function () {
     return view('welcome');
 });

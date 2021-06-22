@@ -29,13 +29,11 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-    'google' => [
-        'client_id' => '738296486751-rnar42dlaedqobh1icjfnb62rd05e0l7.apps.googleusercontent.com',
-        'client_secret' => 'XE0KEY4ZB6gMRI6nnkSUbZAV',
-        'redirect' => 'http://hanumanth.tech/auth/google/callback',
-        #if it is running on localhost
-        // 'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
-        
-    ],
 
+    'passport' => [
+        'login_endpoint' => env('PASSPORT_LOGIN_ENDPOINT'),
+        'client_id' => env('PASSPORT_CLIENT_ID'),
+        'client_secret' => env('PASSPORT_CLIENT_SECRET'),
+    ],
+    
 ];
