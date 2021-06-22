@@ -47,6 +47,17 @@ Route::get('/student/{key}', 'StudentController@get_students');
 Route::get('/students/{regulation_id}/','StudentController@getStudentDetails');
 
 
+
+//Results
+
+Route::get('/exams','ResultsController@index');
+Route::get('/examSchedules','ResultsController@getExamSchedules');
+Route::get('/examRegistrationMark','ResultsController@getExamRegistrationMark');
+Route::get('/examStatsGpa','ResultsController@getStatsGpa');
+Route::get('/examStataGrade','ResultsController@getStatsGrade');
+Route::get('/examSubjects','ResultsController@getSubjects');
+Route::get('/examStudent','ResultsController@getStudents');
+
 //files
 
 Route::post('/upload','FileController@upload');

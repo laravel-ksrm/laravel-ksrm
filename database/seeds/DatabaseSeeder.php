@@ -889,184 +889,189 @@ class DatabaseSeeder extends Seeder
         ]);
 
         
-            // $email1 = '179y1a0572@ksrmce.ac.in';
-            // $email2 = '179y1a0580@ksrmce.ac.in';
-            // $email3 = '179y1a0573@ksrmce.ac.in';
-            // $email4 = '179y1a0590@ksrmce.ac.in';
-            // $email5 = '179y1a05b2@ksrmce.ac.in';
-            // $comment2 = 'Very Good.';
-            // $comment1 = 'syllabus is framed at high level, Thanks to the Management and the Academic Controller.';
-            // $comment3 = 'Syllabus is not bad.';
-            // $comment4 = 'Syllabus is beyond upto the students mark.';
-            // $comment5 = 'Thats Good.';
+            $email1 = '179y1a0572@ksrmce.ac.in';
+            $email2 = '179y1a0580@ksrmce.ac.in';
+            $email3 = '179y1a0573@ksrmce.ac.in';
+            $email4 = '179y1a0590@ksrmce.ac.in';
+            $email5 = '179y1a05b2@ksrmce.ac.in';
+            $comment2 = 'Very Good.';
+            $comment1 = 'syllabus is framed at high level, Thanks to the Management and the Academic Controller.';
+            $comment3 = 'Syllabus is not bad.';
+            $comment4 = 'Syllabus is beyond upto the students mark.';
+            $comment5 = 'Thats Good.';
 
 
-//         DB::table('comments')->insert([
-//             [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email2, 'comments' => $comment2, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email3, 'comments' => $comment3, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email4, 'comments' => $comment4, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email4, 'comments' => $comment4, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email5, 'comments' => $comment5, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
-//             [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id]
-//         ]);
-//         $ExamShortName = 'I Sem (R18)-Regular-2018';
-//         $ExamName = 'B.Tech. I Sem (R18)-Regular-November-2018';
-//         $year = '2018-2019';
-//         $startDate = '2021-07-05';
-//         $endDate = '2021-07-20';
-//         $ExamCategory = 'REGULAR';
-//         $sem_Id = $ce_id;
-//         $Exam_id = DB::table('exams')->insertGetId([
-//             ['id'=>$Exam_id,'short_name'=> $ExamShortName,'name'=> $ExamName,'academic_year' => $year,'start_date'=>$startDate,'end_date'=>$endDate,'exam_category'=>$ExamCategory,'semester_id'=>$sem_Id]
-//         ]);
-//         $s1scheduleDate = '2021-07-05';
-//         $s2scheduleDate = '2021-07-07';
-//         $s3scheduleDate = '2021-07-09';
-//         $s4scheduleDate = '2021-07-12';
-//         $s5scheduleDate = '2021-07-14';
-//         $s6scheduleDate = '2021-07-16';
-//         $s7scheduleDate = '2021-07-20';
-//         $s1ExamDate = '2021-07-05';
-//         $s2ExamDate = '2021-07-07';
-//         $s3ExamDate = '2021-07-09';
-//         $s4ExamDate = '2021-07-12';
-//         $s5ExamDate = '2021-07-14';
-//         $s6ExamDate = '2021-07-16';
-//         $s7ExamDate = '2021-07-20';
+        DB::table('comments')->insert([
+            [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email2, 'comments' => $comment2, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email3, 'comments' => $comment3, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email4, 'comments' => $comment4, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email4, 'comments' => $comment4, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email5, 'comments' => $comment5, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id],
+            [ 'email' => $email1, 'comments' => $comment1, 'specialization_id'=> $ce_id,'semester_id' => $r18ug_2_id]
+        ]);
+        $ExamShortName = 'ISemR18';
+        $ExamName = 'B.Tech. I Sem (R18)-Regular-November-2018';
+        $year = '2018';
+        $startDate = '2021-07-05';
+        $endDate = '2021-07-20';
+        $ExamCategory = 'REGULAR';
+        $sem_Id = $ce_id;
+        $Exam_id = DB::table('exams')->insertGetId(
+            ['short_name'=> $ExamShortName,'name'=> $ExamName,'academic_year' => $year,'start_date'=>$startDate,'end_date'=>$endDate,'exam_category'=>$ExamCategory,'semester_id'=>$sem_Id]
+        );
+        $s1scheduleDate = '2021-07-05';
+        $s2scheduleDate = '2021-07-07';
+        $s3scheduleDate = '2021-07-09';
+        $s4scheduleDate = '2021-07-12';
+        $s5scheduleDate = '2021-07-14';
+        $s6scheduleDate = '2021-07-16';
+        $s7scheduleDate = '2021-07-20';
+        $s1ExamDate = '2021-07-05';
+        $s2ExamDate = '2021-07-07';
+        $s3ExamDate = '2021-07-09';
+        $s4ExamDate = '2021-07-12';
+        $s5ExamDate = '2021-07-14';
+        $s6ExamDate = '2021-07-16';
+        $s7ExamDate = '2021-07-20';
         
 
-//         $E1821101 = DB::table('exam_schedules')->insertGetId([
-//             $Exam_id,'subject_id'=>$s1821101,'schedule_date'=>$s1scheduleDate,'exam_date'=>$s1ExamDate
-//         ]);
-//         $E1823102 = DB::table('exam_schedules')->insertGetId([
-//             $Exam_id,'subject_id'=>$s1823102,'schedule_date'=>$s2scheduleDate,'exam_date'=>$s2ExamDate
-//         ]);
-//         $E1824103 = DB::table('exam_schedules')->insertGetId([
-//             [$Exam_id,'subject_id'=>$s1824103,'schedule_date'=>$s3scheduleDate,'exam_date'=>$s2ExamDate],
-//         ]);
-//         $E1805104 = DB::table('exam_schedules')->insertGetId([
-//             [$Exam_id,'subject_id'=>$s1805104,'schedule_date'=>$s4scheduleDate,'exam_date'=>$s3ExamDate],
-//         ]);
-//         $E1823107 = DB::table('exam_schedules')->insertGetId([
-//             [$Exam_id,'subject_id'=>$s1823107,'schedule_date'=>$s5scheduleDate,'exam_date'=>$s4ExamDate],
-//         ]);
-//         $E1805108 = DB::table('exam_schedules')->insertGetId([
-//             [$Exam_id,'subject_id'=>$s1805108,'schedule_date'=>$s6scheduleDate,'exam_date'=>$s5ExamDate],
-//         ]);
-//         $E1824109 = DB::table('exam_schedules')->insertGetId([
-//             [$Exam_id,'subject_id'=>$s1824109,'schedule_date'=>$s7scheduleDate,'exam_date'=>$s6ExamDate],
-//         ]);
+        $E1821101 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1821101,'schedule_date'=>$s1scheduleDate,'exam_date'=>$s1ExamDate
+        ]);
+        $E1823102 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1823102,'schedule_date'=>$s2scheduleDate,'exam_date'=>$s2ExamDate
+        ]);
+        $E1824103 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1824103,'schedule_date'=>$s3scheduleDate,'exam_date'=>$s2ExamDate],
+        );
+        $E1805104 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1805104,'schedule_date'=>$s4scheduleDate,'exam_date'=>$s3ExamDate],
+        );
+        $E1823107 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1823107,'schedule_date'=>$s5scheduleDate,'exam_date'=>$s4ExamDate],
+        );
+        $E1805108 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1805108,'schedule_date'=>$s6scheduleDate,'exam_date'=>$s5ExamDate],
+        );
+        $E1824109 = DB::table('exam_schedules')->insertGetId([
+            'exam_id' =>$Exam_id,'subject_id'=>$s1824109,'schedule_date'=>$s7scheduleDate,'exam_date'=>$s6ExamDate],
+        );
 
 
-//         $student1 = DB::table('students')->insertGetId([
-//                 'regdno' =>'189Y1A0572',
-//                 'surname'=>'MADIGA',
-//                 'given_name'=>'MANOJA',
-//                 'email'=>'189y1a0572@ksrmce.ac.in',
-//                 'join_year'=>2018,
-//                 'phone'=>9663824224,
-//                 'is_lateral_entry'=>0,
-//                 'social_category'=>'OC',
-//                 'admission_category'=>'CONVENER',
-//                 'residency'=>'DAYS',
-//                 'gender'=>'OTHER',
-//                 'specialization_id'=>5,
-//                 'regulation_id'=>$r18ug_id
+        $student1 = DB::table('students')->insertGetId([
+                'regdno' =>'189Y1A0572',
+                'surname'=>'MADIGA',
+                'given_name'=>'MANOJA',
+                'email'=>'189y1a0572@ksrmce.ac.in',
+                'join_year'=>2018,
+                'phone'=>9663824224,
+                'is_lateral_entry'=>0,
+                'social_category'=>'OC',
+                'admission_category'=>'CONVENER',
+                'residency'=>'DAYS',
+                'gender'=>'OTHER',
+                'specialization_id'=>5,
+                'regulation_id'=>$r18ug_id
 
-// ]);
+]);
 
-//         $s1 = DB::table('exam_registration_marks')->insert([
-//             [$E1821101,'student_id' =>$student1,'attended_exam' =>true,'marks'=>27]
-//         ]);
-//         $s2 = DB::table('exam_registration_marks')->insert([
-//             [$E1823102,'student_id' =>$student1,'attended_exam' =>true,'marks'=>43]
-//         ]);
-//         $s3 = DB::table('exam_registration_marks')->insert([
-//             [$E1824103,'student_id' =>$student1,'attended_exam' =>true,'marks'=>43]
-//         ]);
-//         $s4 = DB::table('exam_registration_marks')->insert([
-//             [$E1805104,'student_id' =>$student1,'attended_exam' =>true,'marks'=>26]
-//         ]);
-//         $s5 = DB::table('exam_registration_marks')->insert([
-//             [$E1823107,'student_id' =>$student1,'attended_exam' =>true,'marks'=>41]
-//         ]);
-//         $s6 = DB::table('exam_registration_marks')->insert([
-//             [$E1805108,'student_id' =>$student1,'attended_exam' =>true,'marks'=>44]
-//         ]);
-//         $s7 = DB::table('exam_registration_marks')->insert([
-//             [$E1824109,'student_id' =>$student1,'attended_exam' =>true,'marks'=>49]
-//         ]);
+        $s1 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1821101,'student_id' =>$student1,'attended_exam' =>true,'marks'=>27]
+        );
+        $s2 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1823102,'student_id' =>$student1,'attended_exam' =>true,'marks'=>43]
+        );
+        $s3 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1824103,'student_id' =>$student1,'attended_exam' =>true,'marks'=>43]
+        );
+        $s4 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1805104,'student_id' =>$student1,'attended_exam' =>true,'marks'=>26]
+        );
+        $s5 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1823107,'student_id' =>$student1,'attended_exam' =>true,'marks'=>41]
+        );
+        $s6 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1805108,'student_id' =>$student1,'attended_exam' =>true,'marks'=>44]
+        );
+        $s7 = DB::table('exam_registration_marks')->insert([
+            'exam_schedule_id'=>$E1824109,'student_id' =>$student1,'attended_exam' =>true,'marks'=>49]
+        );
     
-//     $gr1 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1821101,
-//         'internal_marks'=> 29,
-//         'end exam_marks'=> 27,
-//         'grade'=> 'C-',
-//         'passed'=> true
-//     ]);
-//     $gr2 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1823102,
-//         'internal_marks'=> 29,
-//         'end exam_marks'=> 43,
-//         'grade'=> 'B-',
-//         'passed'=> true
-//     ]);
-//     $gr3 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1824103,
-//         'internal_marks'=> 21,
-//         'end exam_marks'=> 43,
-//         'grade'=> 'C',
-//         'passed'=> true
-//     ]);
-//     $gr4 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1805104,
-//         'internal_marks'=> 28,
-//         'end exam_marks'=> 26,
-//         'grade'=> 'D+',
-//         'passed'=> true
-//     ]);
-//     $gr5 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1823107,
-//         'internal_marks'=> 41,
-//         'end exam_marks'=> 44,
-//         'grade'=> 'A-',
-//         'passed'=> true
-//     ]);
-//     $gr6 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1805108,
-//         'internal_marks'=> 48,
-//         'end exam_marks'=> 44,
-//         'grade'=> 'A',
-//         'passed'=> true
-//     ]);
-//     $gr7 = DB::table('stats_grades')->insertGetId([
-//         'exam_id' => $Exam_id ,
-//         'student_id'=> $student1 ,
-//         'subject_id' => $E1824109,
-//         'internal_marks'=> 46,
-//         'end exam_marks'=> 49,
-//         'grade'=> 'A+',
-//         'passed'=> true
-//     ]);
+    $gr1 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1821101,
+        'internal_marks'=> 29,
+        'end_exam_marks'=> 27,
+        'grade'=> 'C-',
+        'passed'=> true
+    ]);
+    $gr2 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1823102,
+        'internal_marks'=> 29,
+        'end_exam_marks'=> 43,
+        'grade'=> 'B-',
+        'passed'=> true
+    ]);
+    $gr3 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1824103,
+        'internal_marks'=> 21,
+        'end_exam_marks'=> 43,
+        'grade'=> 'C',
+        'passed'=> true
+    ]);
+    $gr4 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1805104,
+        'internal_marks'=> 28,
+        'end_exam_marks'=> 26,
+        'grade'=> 'D+',
+        'passed'=> true
+    ]);
+    $gr5 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1823107,
+        'internal_marks'=> 41,
+        'end_exam_marks'=> 44,
+        'grade'=> 'A-',
+        'passed'=> true
+    ]);
+    $gr6 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1805108,
+        'internal_marks'=> 48,
+        'end_exam_marks'=> 44,
+        'grade'=> 'A',
+        'passed'=> true
+    ]);
+    $gr7 = DB::table('stats_grades')->insertGetId([
+        'exam_id' => $Exam_id ,
+        'student_id'=> $student1 ,
+        'subject_id' => $E1824109,
+        'internal_marks'=> 46,
+        'end_exam_marks'=> 49,
+        'grade'=> 'A+',
+        'passed'=> true
+    ]);
+    $gp1 = DB::table('stats_gpas')->insertGetId([
+        'student_id' =>$student1,
+        'exam_id' => $Exam_id,
+        'sgpa' => 8.9,
+        'cgpa' => 8.7,
+        'semester_credits' => 18,
+        'cumulative_credits' => 108
+    ]);
+
      
-    
-    
-    
-    
     
     }
 }
