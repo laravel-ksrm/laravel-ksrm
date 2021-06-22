@@ -34,13 +34,18 @@ class ResultsController extends Controller
     {
         return StatsGpa::all();
     }
+    public function CalcGpa($student_id)
+    {
+        $subject_id = ExamRegistrationMark::with('exam_schedules')->where('student_id',$student_id)->get();
+        return $subject_id;
+    }
     public function getStatsGrade()
     {
         return StatsGrade::all();
     }
-    public function getStudents()
+    public function getStudent($student_id)
     {
-        return Student::all();
+        return ExamRegistrationMark::with(['student_id'])->where('student_id',$student_id)->get();
     }
     public function getSubjects()
     {
