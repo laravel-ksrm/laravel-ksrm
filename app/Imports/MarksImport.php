@@ -14,6 +14,19 @@ class MarksImport implements ToCollection, WithHeadingRow
     public function collection(Collection $marks)
     {
         // echo $marks->count();
+        foreach ($marks as $m) 
+        {
+            try {
+            ExamRegistrationMark::create([
+                    
+                    'created_at' => now(),
+                    'updated_at' => now()
+            ]);
+        } 
+                catch (Exception $e) {
+                    echo $s[0] . "\n import failed";
+                }
+        }
     }
 
 }

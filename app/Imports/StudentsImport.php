@@ -29,13 +29,14 @@ class StudentsImport implements ToCollection, WithHeadingRow
                     'residency' => $s[9],
                     'gender' => $s[10],
                     'specialization_id' => $s[11],
-                    'regulation_id' => 1; //$s[12],
+                    'regulation_id' => $s[12],
                     'created_at' => now(),
                     'updated_at' => now()
-                } catch (Exception $e) {
+            ]);
+        } 
+                catch (Exception $e) {
                     echo $s[0] . "\n import failed";
                 }
-            ]);
         }
     }
 

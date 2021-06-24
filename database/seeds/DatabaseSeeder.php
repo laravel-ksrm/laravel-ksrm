@@ -1070,8 +1070,5 @@ class DatabaseSeeder extends Seeder
         'semester_credits' => 18,
         'cumulative_credits' => 108
     ]);
-
-     
-    
     }
 }
