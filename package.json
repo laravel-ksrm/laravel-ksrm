@@ -48,7 +48,8 @@
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
         "vue-cli-plugin-bootstrap-vue": "~0.7.0",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.6.10",
+        "webpack-cli": "^4.7.2"
     },
     "eslintConfig": {
         "root": true,

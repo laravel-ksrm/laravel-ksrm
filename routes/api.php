@@ -54,7 +54,7 @@ Route::get('/exams','ResultsController@index');
 Route::get('/examSchedules','ResultsController@getExamSchedules');
 Route::get('/examRegistrationMark/{student_id}','ResultsController@getExamRegistrationMark');
 Route::get('/examStatsGpa','ResultsController@getStatsGpa');
-Route::get('/examStataGrade','ResultsController@getStatsGrade');
+Route::get('/examStataGrade/{student_id}','ResultsController@getStatsGrade');
 Route::get('/examSubjects','ResultsController@getSubjects');
 Route::get('/examStudent','ResultsController@getStudents');
 Route::get('/examStudentgpa/{student_id}','ResultsController@CalcGpa');

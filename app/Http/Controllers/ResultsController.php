@@ -39,9 +39,9 @@ class ResultsController extends Controller
         $subject_id = ExamRegistrationMark::with('exam_schedules')->where('student_id',$student_id)->get();
         return $subject_id;
     }
-    public function getStatsGrade()
+    public function getStatsGrade($student_id)
     {
-        return StatsGrade::all();
+        return StatsGrade::with(['exam','subject','students'])->where('student_id',$student_id)->get();
     }
     public function getStudent($student_id)
     {
