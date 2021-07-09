@@ -10,9 +10,10 @@ use Illuminate\Http\Request;
 
 class SubjectController extends Controller
 {
-    public function getSubjectCount()
+    public function getSubjectList($sub_name)
     {
-        return Subject::get();
+        return Subject::where('name', 'like', '%' . $sub_name . '%')
+        ->latest();
     }
 
     public function get_syllabus(Request $request, $id) {

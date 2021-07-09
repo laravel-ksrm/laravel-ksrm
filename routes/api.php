@@ -69,7 +69,7 @@ Route::get('/regulations/{regulation_id}/subjects/{subject_code?}', 'Regulations
 Route::get('/subjects/{id}/ratings', 'SubjectController@get_ratings');
 Route::get('/subjects/{id}/syllabus', 'SubjectController@get_syllabus');
 Route::post('/subjects/{id}/ratings', 'SubjectController@add_rating');
-Route::get('/subject', 'SubjectController@getSubjectCount');
+Route::get('/subjects/{sub_name}', 'SubjectController@getSubjectList');
 
 //comments
 
@@ -90,5 +90,5 @@ Route::post('/regulations/{regulation_code}/specializations', 'RegulationsContro
 Route::post('/contactus/sendemail', 'EmailController@send_contact_us_email');
 Route::post('/sendemail', 'EmailController@send_standard_email');
 
-// Route::post('/import/marks', 'ImportMarksController@import_marks');
-// Route::post('/parse-csv', 'ExamsController@import');
+Route::post('/import/marks', 'ImportMarksController@import_marks');
+Route::post('/parse-csv', 'ExamsController@import');
