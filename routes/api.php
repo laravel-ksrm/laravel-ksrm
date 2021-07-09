@@ -92,3 +92,6 @@ Route::post('/sendemail', 'EmailController@send_standard_email');
 
 Route::post('/import/marks', 'ImportMarksController@import_marks');
 Route::post('/parse-csv', 'ExamsController@import');
+
+Route::post('/import/marks', 'ImportMarksController@import_marks');
+Route::post('/parse-csv', 'ExamsController@import');
